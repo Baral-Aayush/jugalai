@@ -68,7 +68,7 @@ function speakThis(message) {
     }
 
     else if(message.includes('jugal team')) {
-        const finalText = "Jugal team is the team of Mrs Aayush Baral along with others two members prabin and Saurav. Here they work together for their projects. ";
+        const finalText = "Jugal team is the team of Mrs Aayush Baral along with others two members prabin and Saurav. where they collaboratively work on diverse programming projects and other computer-related endeavors. Their team thrives on innovation and teamwork, consistently pushing the boundaries of our technical capabilities.";
         speech.text = finalText;
     }
 
@@ -92,7 +92,7 @@ function speakThis(message) {
         const finalText = "Opening Google";
         speech.text = finalText;
     }
-        else if(message.includes('open chatGPT')) {
+        else if(message.includes('open chat GPT')) {
         window.open("https://chatgpt.com/", "_blank");
         const finalText = "Opening ChatGPT";
         speech.text = finalText;
