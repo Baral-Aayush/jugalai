@@ -86,6 +86,14 @@ function speakThis(message) {
         const finalText = "My name is jugal";
         speech.text = finalText;
     }
+        else if(message.includes('Aayush Baral')) {
+        const finalText = "Hello, I'm Aayush Baral, and I reside in the vibrant town of Lalbandi, Sarlahi. As the Admin of Jugal Team, I lead a dynamic group of three passionate individuals, where we collaboratively work on diverse programming projects and other computer-related endeavors. Our team thrives on innovation and teamwork, consistently pushing the boundaries of our technical capabilities.
+
+Currently, I am a student at Shree Janajyoti Model School, where I am dedicated to excelling academically and honing my skills in various aspects of technology and programming. My educational journey at this esteemed institution has been incredibly enriching, providing me with the knowledge and foundation to pursue my interests and ambitions in the tech world.
+
+Being part of Jugal Team allows me to apply my theoretical learning to practical projects, enhancing my problem-solving skills and fostering a deeper understanding of the technological landscape. Together, we aim to make significant contributions to the field and continually strive for excellence in our projects.";
+        speech.text = finalText;
+    }
 
     else if(message.includes('open google')) {
         window.open("https://google.com", "_blank");
