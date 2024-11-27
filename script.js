@@ -92,7 +92,7 @@ function speakThis(message) {
         const finalText = "Opening Google";
         speech.text = finalText;
     }
-        else if(message.includes('open chat GPT')) {
+        else if(message.includes('open chat gpt')) {
         window.open("https://chatgpt.com/", "_blank");
         const finalText = "Opening ChatGPT";
         speech.text = finalText;
