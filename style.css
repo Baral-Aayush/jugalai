@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Wet+Paint&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  min-height: 100vh;
+  position: relative;
+  width: 100%;
+  background: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main .image-container {
+  padding: 10px;
+}
+
+.main .image-container .image {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main .image-container .image img {
+  width: 210px;
+  align-items: center;
+}
+
+.main .image-container h1 {
+  color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+
+.main .image-container h1 text {
+  color: rgb(248, 245, 62);
+    font-size: 40px;
+}
+
+.main .input {
+width: 32%;
+background: linear-gradient(to right,rgb(0, 195, 255),rgb(255, 0, 128));
+padding: 0px;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 10px;
+font-size: 20px;
+border-radius: 20px;
+color: white;
+box-shadow: 2px 2px 10px rgb(0, 195, 255),2px 2px 10px rgb(255, 0, 128);
+border: none;
+transition: all 0.5s;
+cursor: pointer;
+}
+
+.main .input:hover{
+    box-shadow: 2px 2px 10px rgb(0, 195, 255),2px 2px 10px rgb(255, 0, 128);
+    letter-spacing: 2px;
+}
+
+.main .input .talk {
+  background: transparent;
+  outline: none;
+  border: none;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.main .input .talk i {
+  font-size: 20px;
+  color: #aed0d0;
+}
+
+.main .input .content {
+  color: white;
+  font-size: 20px;
+  margin-right: 20px;
+}
