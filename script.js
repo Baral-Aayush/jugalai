@@ -92,6 +92,11 @@ function speakThis(message) {
         const finalText = "Opening Google";
         speech.text = finalText;
     }
+        else if(message.includes('open chatGPT')) {
+        window.open("https://chatgpt.com/", "_blank");
+        const finalText = "Opening ChatGPT";
+        speech.text = finalText;
+        }
 
     else if(message.includes('open youtube')) {
         window.open("https://youtube.com", "_blank");
