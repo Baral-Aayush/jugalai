@@ -147,8 +147,8 @@ function speakThis(message) {
     }
 
     else if(message.includes('open calculator')) {
-        window.open('Calculator:///')
-        const finalText = "Opening Calculator";
+        window.open("https://baral-aayush.github.io/calculator/", "_blank");
+        const finalText = "Opening calculator";
         speech.text = finalText;
     }
     else {
