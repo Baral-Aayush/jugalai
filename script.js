@@ -87,7 +87,7 @@ function speakThis(message) {
         speech.text = finalText;
     }
 
-    else if(message.includes('About your Admin')) {
+    else if(message.includes('about your admin')) {
         const finalText = "Hello, Aayush Baral reside in the vibrant town of Lalbandi, Sarlahi. As the Admin of Jugal Team, He lead a dynamic group of three passionate individuals, where they collaboratively work on diverse programming projects and other computer-related endeavors. Their team thrives on innovation and teamwork, consistently pushing the boundaries of their technical capabilities";
         speech.text = finalText;
     }
@@ -101,9 +101,9 @@ function speakThis(message) {
         const finalText = "Opening world game by jugal team";
         speech.text = finalText;
     }
-    else if(message.includes('open your Website')) {
+    else if(message.includes('open your website')) {
         window.open("https://baralaayush.com.np", "_blank");
-        const finalText = "Opening Aayush baral website";
+        const finalText = "Opening aayush baral website";
         speech.text = finalText;
     }
      else if(message.includes('open chat gpt')) {
