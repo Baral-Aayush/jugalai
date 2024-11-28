@@ -86,7 +86,7 @@ function speakThis(message) {
         const finalText = "My name is jugal";
         speech.text = finalText;
     }
-        else if(message.includes('Aayush Baral')) {
+        else if(message.includes('Introduce Aayush Baral')) {
         const finalText = "Hello, I'm Aayush Baral, and I reside in the vibrant town of Lalbandi, Sarlahi. As the Admin of Jugal Team, I lead a dynamic group of three passionate individuals, where we collaboratively work on diverse programming projects and other computer-related endeavors. Our team thrives on innovation and teamwork, consistently pushing the boundaries of our technical capabilities.
 
 Currently, I am a student at Shree Janajyoti Model School, where I am dedicated to excelling academically and honing my skills in various aspects of technology and programming. My educational journey at this esteemed institution has been incredibly enriching, providing me with the knowledge and foundation to pursue my interests and ambitions in the tech world.
