@@ -87,7 +87,7 @@ function speakThis(message) {
         speech.text = finalText;
     }
 
-    else if(message.includes('about your admin') || message.includes('about aayush baral')) {
+    else if(message.includes('about your admin') || message.includes('about ayush baral')) {
         const finalText = "Hello, Aayush Baral reside in the vibrant town of Lalbandi, Sarlahi. As the Admin of Jugal Team, He lead a dynamic group of three passionate individuals, where they collaboratively work on diverse programming projects and other computer-related endeavors. Their team thrives on innovation and teamwork, consistently pushing the boundaries of their technical capabilities. Currently, he is a  student at Shree Janajyoti Model School, where he dedicated to excelling academically and honing his skills in various aspects of technology and programming. His educational journey at this esteemed institution has been incredibly enriching, providing him with the knowledge and foundation to pursue his interests and ambitions in the tech world. Being part of Jugal Team allows him to apply his theoretical learning to practical projects, enhancing his problem-solving skills and fostering a deeper understanding of the technological landscape. Together, They aim to make significant contributions to the field and continually strive for excellence in their projects.";
         speech.text = finalText;
     }
