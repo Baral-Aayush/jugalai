@@ -135,6 +135,11 @@ function speakThis(message) {
         const finalText = "This is what i found on wikipedia regarding " + message;
         speech.text = finalText;
     }
+    else if(message.includes('open wikipedia')) {
+        window.open("https://www.wikipedia.org/", "_blank");
+        const finalText = "Opening wikipedia";
+        speech.text = finalText;
+    }
 
     else if(message.includes('time')) {
         const time = new Date().toLocaleString(undefined, {hour: "numeric", minute: "numeric"})
@@ -148,12 +153,16 @@ function speakThis(message) {
         speech.text = finalText;
     }
 
-    else if(message.includes('calculator')) {
+    else if(message.includes('open calculator')) {
         window.open('Calculator:///')
         const finalText = "Opening Calculator";
         speech.text = finalText;
     }
-
+    else if(message.includes('msword')) {
+        window.open('word:///')
+        const finalText = "Opening msword";
+        speech.text = finalText;
+    }
     else {
         window.open(`https://www.google.com/search?q=${message.replace(" ", "+")}`, "_blank");
         const finalText = "I found some information for " + message + " on google";
