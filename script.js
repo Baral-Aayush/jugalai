@@ -6,7 +6,7 @@ function speak(sentence) {
 
     text_speak.rate = 1;
     text_speak.pitch = 1;
-    text_speak.lang="IN-EN"
+    text_speak.lang="GB-EN"
 
     window.speechSynthesis.speak(text_speak);
 }
@@ -160,7 +160,7 @@ function speakThis(message) {
     speech.volume = 1;
     speech.pitch = 1;
     speech.rate = 1;
-    speech.lang="IN-EN"
+    speech.lang="GB-EN"
 
     window.speechSynthesis.speak(speech);
 }
