@@ -6,7 +6,7 @@ function speak(sentence) {
 
     text_speak.rate = 1;
     text_speak.pitch = 1;
-    text_speak.lang="GB-EN"
+    text_speak.lang="IN-EN"
 
     window.speechSynthesis.speak(text_speak);
 }
@@ -68,7 +68,7 @@ function speakThis(message) {
     }
 
     else if(message.includes('jugal team')) {
-        const finalText = "Jugal team is the team of Mrs Aayush Baral along with others two members prabin and Saurav. where they collaboratively work on diverse programming projects and other computer-related endeavors. Their team thrives on innovation and teamwork, consistently pushing the boundaries of our technical capabilities.";
+        const finalText = "Jugal team is the team of Mrs Aayush Baral along with other one members prabin. where they collaboratively work on diverse programming projects and other computer-related endeavors. Their team thrives on innovation and teamwork, consistently pushing the boundaries of our technical capabilities.";
         speech.text = finalText;
     }
 
@@ -78,7 +78,7 @@ function speakThis(message) {
     }
 
     else if(message.includes('made')) {
-        const finalText = "Jugal Team Members made me";
+        const finalText = "Jugal Team Members Mrs Aayush and Prabin made me";
         speech.text = finalText;
     }
 
@@ -88,7 +88,7 @@ function speakThis(message) {
     }
 
     else if(message.includes('about your admin') || message.includes('about ayush baral')) {
-        const finalText = "Hello, Aayush Baral reside in the vibrant town of Lalbandi, Sarlahi. As the Admin of Jugal Team, He lead a dynamic group of three passionate individuals, where they collaboratively work on diverse programming projects and other computer-related endeavors. Their team thrives on innovation and teamwork, consistently pushing the boundaries of their technical capabilities. Currently, he is a  student at Shree Janajyoti Model School, where he dedicated to excelling academically and honing his skills in various aspects of technology and programming. His educational journey at this esteemed institution has been incredibly enriching, providing him with the knowledge and foundation to pursue his interests and ambitions in the tech world. Being part of Jugal Team allows him to apply his theoretical learning to practical projects, enhancing his problem-solving skills and fostering a deeper understanding of the technological landscape. Together, They aim to make significant contributions to the field and continually strive for excellence in their projects.";
+        const finalText = "Hello, Aayush Baral reside in the vibrant town of Lalbandi, Sarlahi. As the Admin of Jugal Team, He lead a dynamic group of two passionate individuals, where they collaboratively work on diverse programming projects and other computer-related endeavors. Their team thrives on innovation and teamwork, consistently pushing the boundaries of their technical capabilities. Currently, he is a  student at Shree Janajyoti Model School, where he dedicated to excelling academically and honing his skills in various aspects of technology and programming. His educational journey at this esteemed institution has been incredibly enriching, providing him with the knowledge and foundation to pursue his interests and ambitions in the tech world. Being part of Jugal Team allows him to apply his theoretical learning to practical projects, enhancing his problem-solving skills and fostering a deeper understanding of the technological landscape. Together, They aim to make significant contributions to the field and continually strive for excellence in their projects.";
         speech.text = finalText;
     }
     else if(message.includes('open google')) {
@@ -160,7 +160,7 @@ function speakThis(message) {
     speech.volume = 1;
     speech.pitch = 1;
     speech.rate = 1;
-    speech.lang="GB-EN"
+    speech.lang="IN-EN"
 
     window.speechSynthesis.speak(speech);
 }
